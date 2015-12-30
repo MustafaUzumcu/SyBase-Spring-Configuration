@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+  <bean id="dbDataSource"
+        class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="com.sybase.jdbc4.jdbc.SybDriver"/>
+    <property name="url"
+              value="jdbc:sybase:Tds:ServerURL:Port/DatabaseName?ENCRYPT_PASSWORD=true"/>
+    <property name="username" value="DatabaseUserName"/>
+    <property name="password" value="DataasePassword"/>
+  </bean>
+</beans>
