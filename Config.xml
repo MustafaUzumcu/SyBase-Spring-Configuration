@@ -6,6 +6,6 @@
     <property name="url"
               value="jdbc:sybase:Tds:ServerURL:Port/DatabaseName?ENCRYPT_PASSWORD=true"/>
     <property name="username" value="DatabaseUserName"/>
-    <property name="password" value="DataasePassword"/>
+    <property name="password" value="DatabasePassword"/>
   </bean>
 </beans>
