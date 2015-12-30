@@ -1,5 +1,5 @@
 # SyBase-Spring-Configuration
-SyBase Spring Configuration for JDBC
+SyBase Spring Configuration.
 
 jConnect JDBC Driver is not a maven project.
 
